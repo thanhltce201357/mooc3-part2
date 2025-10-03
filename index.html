@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elden Ring Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="initGallery()">
+
+  <h1>Elden Ring Interactive Gallery</h1>
+  <div id="image" class="preview">
+    Hover or focus on an image below to display here.
+  </div>
+
+  <div id="gallery">
+    <img src="images/elden1.png" alt="Elden Ring landscape" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+    <img src="images/elden2.png" alt="Elden Ring boss fight" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+    <img src="images/elden3.png" alt="The Erdtree glowing" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+    <img src="images/elden4.png" alt="Player character with sword" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+    <img src="images/elden5.png" alt="Dark dungeon scene" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+    <img src="images/elden6.png" alt="Dragon battle in Elden Ring" 
+         onmouseover="upDate(this)" onmouseleave="unDo()" 
+         onfocus="upDate(this)" onblur="unDo()">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
